@@ -1,0 +1,134 @@
+
+#intro {
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-size: large;
+}
+
+p {
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-size: large;
+}
+
+h2 {
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family:Impact, Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 3px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-size: large;
+}
+
+ul {
+    padding-right: 70px;
+    padding-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-size: large;
+}
+
+#welcome {
+    padding-top: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 4px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-family:Impact, Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+#platform {
+    padding-right: 70px;
+    padding-left: 70px;
+    color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 4px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-family:Impact, Arial, Helvetica, sans-serif;
+}
+
+a {
+    -webkit-text-fill-color: #f86016;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    paint-order: stroke fill;
+
+}
+
+.container-fluid{
+    -webkit-text-fill-color: #003e60;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 4px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    background-color: #f8f9fa;
+}
+
+.fix-stroke{
+    paint-order: stroke fill;
+}
+
+#platform-width{
+    width: fit-content;
+    background-color: #003e6043;
+
+}
+
+#row-2{
+    background-color: #003e60;
+    width: 100%;
+    row-gap: 0px;
+}
+
+#welcomepage{
+    background-color: white;
+    width: 100%;
+}
+
+#platformpage{
+    background-image: linear-gradient(white, #3c7597 );
+    width: 100%;
+}
+
+#row-1{
+    background-color: #003e6010;
+    row-gap: 0px;
+}
+
+footer{
+    background-color: #003e60;
+    row-gap: 0px;
+}
+
+body{
+    background-color: #003e60;
+}
+
+#banner{
+    width: 100%;
+}
