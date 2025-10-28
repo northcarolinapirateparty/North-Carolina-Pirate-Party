@@ -139,7 +139,6 @@ body{
 }
 
 #mainNav .navbar-brand {
-    font-weight: bold;
     color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 2px;
