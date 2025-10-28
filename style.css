@@ -133,8 +133,25 @@ body{
     width: 100%;
 }
 
-header span.header-title { 
-    font-size: 1.2rem;
-    padding-top: 1px;
-    padding-right: 1rem;
+#mainNav {
+    background-color: #f8f9fa;
+    border-bottom: 3px solid #002768;
+}
+
+#mainNav .navbar-brand {
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #002768;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 2px;
+    paint-order: stroke fill;
+}
+
+#mainNav .nav-link {
+    -webkit-text-fill-color: #c00a32;
+    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke-width: 1px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-family: Arial, Helvetica, sans-serif;
 }
