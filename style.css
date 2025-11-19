@@ -159,15 +159,3 @@ body{
     background-color: #c00a32;
     row-gap: 0px;
 }
-
-about {
-    padding-right: 70px;
-    padding-left: 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #f8cc02;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;
-    paint-order: stroke fill;
-    font-size: large;
-}
