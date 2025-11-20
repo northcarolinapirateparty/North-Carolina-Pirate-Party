@@ -165,6 +165,6 @@ body{
     -webkit-text-stroke: rgba(0, 0, 0, 0.5);
     -webkit-text-stroke-width: 1px;
     font-weight: bold;
-    paint-order: stroke fill;
+    paint-order: fill;
     background-color: #000000;
 }
