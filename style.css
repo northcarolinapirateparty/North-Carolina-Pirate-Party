@@ -168,3 +168,8 @@ body{
     paint-order: stroke fill;
     background-color: #000000;
 }
+
+#row-4{
+    background-color: #002768;
+    row-gap: 0px;
+}
