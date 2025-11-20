@@ -52,7 +52,7 @@ ul {
     padding-right: 70px;
     padding-left: 70px;
     color: #002768;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
