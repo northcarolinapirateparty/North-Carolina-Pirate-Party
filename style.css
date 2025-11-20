@@ -162,7 +162,7 @@ body{
 
 .container-fluid-1{
     -webkit-text-fill-color: #f8cc02;
-    -webkit-text-stroke: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: rgba(0, 0, 0, 1);
     -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: fill stroke;
