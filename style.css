@@ -192,7 +192,7 @@ h3 {
     font-family:Impact, Arial, Helvetica, sans-serif;
     -webkit-text-fill-color: #f8cc02;
     -webkit-text-stroke: rgba(0, 0, 0, 1);
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 4px;
     font-weight: bold;
     paint-order: stroke fill;
     font-size: large;
