@@ -140,7 +140,7 @@ body{
 }
 
 #mainNav .navbar-brand {
-    color: #f8cc02;
+    color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 2px;
     paint-order: stroke fill;
