@@ -127,7 +127,7 @@ footer{
 }
 
 body{
-    background-color: #f8cc02;
+    background-color: #002768;
 }
 
 #banner{
@@ -140,7 +140,7 @@ body{
 }
 
 #mainNav .navbar-brand {
-    color: #002768;
+    color: #f8cc02;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 2px;
     paint-order: stroke fill;
