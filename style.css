@@ -191,7 +191,7 @@ rfo {
     padding-left: 70px;
     font-family:Impact, Arial, Helvetica, sans-serif;
     -webkit-text-fill-color: #f8cc02;
-    -webkit-text-stroke: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: rgba(0, 0, 0, 1);
     -webkit-text-stroke-width: 3px;
     font-weight: bold;
     paint-order: stroke fill;
