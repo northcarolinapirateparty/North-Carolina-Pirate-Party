@@ -207,3 +207,16 @@ h3 {
     paint-order: stroke fill;
     background-color: #000000;
 }
+
+#outro {
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;    
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002768;
+    -webkit-text-stroke: rgba(0, 0, 0, 0);
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+    paint-order: stroke fill;
+    font-size: large;
+}
