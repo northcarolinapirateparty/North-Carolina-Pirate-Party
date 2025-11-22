@@ -44,37 +44,13 @@
     <div id="row-1" class="container-fluid row gy-0 gx-0">
         <p id="intro">Please fill out the form provided below and we will respond to your inquiry shortly. Thank you!</p>             
     </div>
-<form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
-  <div class="form-group">
-    <label>First Name</label>
-    <input type="text" name="first_name" required>
-  </div>
+<?php if(isset($_GET['sent'])): ?>
+  <div class="success">Thank you! Your message was sent successfully.</div>
+<?php elseif(isset($_GET['error'])): ?>
+  <div class="error">Sorry, something went wrong. Please try again.</div>
+<?php endif; ?>
 
-  <div class="form-group">
-    <label>Last Name</label>
-    <input type="text" name="last_name" required>
-  </div>
-
-  <div class="form-group">
-    <label>Email</label>
-    <input type="email" name="_replyto" required>
-  </div>
-
-  <div class="form-group">
-    <label>Message</label>
-    <textarea name="message" rows="6" required></textarea>
-  </div>
-
-  <!-- Honeypot anti-spam (invisible to users) -->
-  <div style="position:absolute; left:-9999px;">
-    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
-  </div>
-
-  <button type="submit">Send Message</button>
-</form>  
-
-<form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
-  <!-- First & Last Name on the same row -->
+<form action="send.php" method="post">
   <div class="name-row">
     <div>
       <label>First Name</label>
@@ -88,7 +64,7 @@
 
   <div style="margin-bottom:15px;">
     <label>Email</label>
-    <input type="email" name="_replyto" required>
+    <input type="email" name="email" required>
   </div>
 
   <div style="margin-bottom:15px;">
@@ -96,13 +72,13 @@
     <textarea name="message" rows="6" required></textarea>
   </div>
 
-  <!-- Anti-spam honeypot (keep this) -->
+  <!-- Simple anti-spam honeypot (bots fill it, humans don’t see it) -->
   <div style="position:absolute; left:-9999px;">
-    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+    <input type="text" name="website" tabindex="-1" autocomplete="off">
   </div>
 
   <button type="submit">Send Message</button>
-</form>        
+</form>
 <!-- Start of Join Page -->
     <div id="row-2" class="row gy-0 gx-0 container-fluid">
         <h2 id="join" style="padding-left: 70px; padding-right: 70px; padding-top: 15px; width: 100%;">Join Us</h2>
