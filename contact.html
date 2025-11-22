@@ -71,6 +71,37 @@
   </div>
 
   <button type="submit">Send Message</button>
+</form>  
+
+<form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+  <!-- First & Last Name on the same row -->
+  <div class="name-row">
+    <div>
+      <label>First Name</label>
+      <input type="text" name="first_name" required>
+    </div>
+    <div>
+      <label>Last Name</label>
+      <input type="text" name="last_name" required>
+    </div>
+  </div>
+
+  <div style="margin-bottom:15px;">
+    <label>Email</label>
+    <input type="email" name="_replyto" required>
+  </div>
+
+  <div style="margin-bottom:15px;">
+    <label>Message</label>
+    <textarea name="message" rows="6" required></textarea>
+  </div>
+
+  <!-- Anti-spam honeypot (keep this) -->
+  <div style="position:absolute; left:-9999px;">
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+  </div>
+
+  <button type="submit">Send Message</button>
 </form>        
 <!-- Start of Join Page -->
     <div id="row-2" class="row gy-0 gx-0 container-fluid">
