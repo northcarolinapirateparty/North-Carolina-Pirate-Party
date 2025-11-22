@@ -208,11 +208,11 @@ h3 {
     background-color: #000000;
 }
 
-h4 {
+#contact {
     padding-top: 70px;
     padding-right: 70px;
     padding-left: 70px;
-    font-family:Impact, Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     -webkit-text-fill-color: #000000;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 4px;
