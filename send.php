@@ -1,7 +1,7 @@
 <?php
 if ($_POST) {
     // ←←← CHANGE THIS TO YOUR REAL EMAIL
-    $to_email = "you@yourdomain.com";
+    $to_email = "northcarolinapirateparty@gmail.com";
 
     $first_name = trim($_POST['first_name']);
     $last_name  = trim($_POST['last_name']);
