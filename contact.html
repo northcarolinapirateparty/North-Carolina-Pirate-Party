@@ -44,37 +44,30 @@
     <div id="row-1" class="container-fluid row gy-0 gx-0">
         <p id="intro">Please fill out the form provided below and we will respond to your inquiry shortly. Thank you!</p>             
     </div>
-<?php if(isset($_GET['sent'])): ?>
-  <div class="success">Thank you! Your message was sent successfully.</div>
-<?php elseif(isset($_GET['error'])): ?>
-  <div class="error">Sorry, something went wrong. Please try again.</div>
-<?php endif; ?>
-
-<form action="send.php" method="post">
-  <div class="name-row">
-    <div>
-      <label>First Name</label>
-      <input type="text" name="first_name" required>
-    </div>
-    <div>
-      <label>Last Name</label>
-      <input type="text" name="last_name" required>
-    </div>
+<form action="https://formspree.io/f/YOUR_FORM_ID_HERE" method="POST">
+  <div class="form-group">
+    <label>First Name</label>
+    <input type="text" name="first_name" required>
   </div>
 
-  <div style="margin-bottom:15px;">
+  <div class="form-group">
+    <label>Last Name</label>
+    <input type="text" name="last_name" required>
+  </div>
+
+  <div class="form-group">
     <label>Email</label>
-    <input type="email" name="email" required>
+    <input type="email" name="_replyto" required>
   </div>
 
-  <div style="margin-bottom:15px;">
+  <div class="form-group">
     <label>Message</label>
     <textarea name="message" rows="6" required></textarea>
   </div>
 
-  <!-- Simple anti-spam honeypot (bots fill it, humans don’t see it) -->
+  <!-- Honeypot anti-spam (invisible to users) -->
   <div style="position:absolute; left:-9999px;">
-    <input type="text" name="website" tabindex="-1" autocomplete="off">
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
   </div>
 
   <button type="submit">Send Message</button>
