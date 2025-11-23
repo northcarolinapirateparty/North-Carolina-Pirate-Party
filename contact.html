@@ -67,26 +67,17 @@
 </form>
         
 <form action="https://formspree.io/f/xldvlwky" method="POST">
-  <div class="row">
-        <label style="padding-left: 70px; padding-right: 70px; padding-top: 15px;">First Name</label>
-    <input type="text" name="first_name" required>
-        <label style="padding-left: 70px; padding-right: 70px; padding-top: 15px;">Last Name</label>
-    <input type="text" name="last_name" required>
-        <label style="padding-left: 70px; padding-right: 70px; padding-top: 15px;">Message</label>
-    <textarea name="message" rows="6" required></textarea>
-  </div>      
-
-  <div class="form-group">
-        <label style="padding-left: 70px; padding-right: 70px; padding-top: 15px;">Message</label>
-    <textarea name="message" rows="6" required></textarea>
+<div class="row g-3">
+  <div class="col">
+    <input type="text" class="form-control text-end" placeholder="First name">
   </div>
-    
-  <!-- Honeypot anti-spam (invisible to users) -->
-  <div style="position:absolute; left:-9999px;">
-    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+  <div class="col">
+    <input type="text" class="form-control text-end" placeholder="Last name">
   </div>
-
-  <button type="submit">Send Message</button>
+  <div class="col">
+    <input type="text" class="form-control text-end" placeholder="Email">
+  </div>
+</div>
 </form>
 <!-- Start of Join Page -->
     <div id="row-2" class="row gy-0 gx-0 container-fluid">
