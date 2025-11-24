@@ -147,7 +147,7 @@ body{
 }
 
 #mainNav .nav-link {
-    padding-right: 30px;
+    padding-left: 30px;
     -webkit-text-fill-color: #c00a32;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 1px;
