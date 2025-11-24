@@ -214,11 +214,3 @@ h3 {
     paint-order: stroke fill;
     background-color: #f8cc02;
 }
-
-e {
-    -webkit-text-fill-color: #002768;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;
-    paint-order: stroke fill;
-}
