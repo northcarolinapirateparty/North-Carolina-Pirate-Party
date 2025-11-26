@@ -222,7 +222,7 @@ h3 {
 /* Base styles (for mobile/small screens) */
 .card {
     max-width: 300px; /* Compact on mobile */
-    margin: 20px auto;
+    margin: 5px auto;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 8px;
