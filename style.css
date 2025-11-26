@@ -214,3 +214,7 @@ h3 {
     paint-order: stroke fill;
     background-color: #f8cc02;
 }
+
+.highlight-link {
+  color: #ffffff;        /* your custom color */
+}
