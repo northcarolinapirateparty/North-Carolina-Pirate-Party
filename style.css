@@ -266,7 +266,7 @@ h3 {
 /* Media query for tablets and up (min-width: 768px) */
 @media screen and (min-width: 768px) {
     .card {
-        max-width: 250px; /* Wider on larger screens */
+        max-width: 500px; /* Wider on larger screens */
         display: flex;
         flex-direction: row; /* Side-by-side layout */
         align-items: center;
