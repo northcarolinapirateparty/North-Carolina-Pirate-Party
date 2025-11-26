@@ -216,5 +216,5 @@ h3 {
 }
 
 #pirate-code-link {
-    color: white;
+    -webkit-text-fill-color: white;
 }
