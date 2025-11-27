@@ -221,7 +221,7 @@ h3 {
 
 /* Base styles (for mobile/small screens) */
 .card {
-    max-width: 200px; /* Compact on mobile */
+    max-width: 400px; /* Compact on mobile */
     margin: 5px auto;
     padding: 5px;
     border: 1px solid #ccc;
@@ -295,7 +295,7 @@ h3 {
 /* Media query for desktop (min-width: 1024px) */
 @media screen and (min-width: 1024px) {
     .card {
-        max-width: 600px;
+        max-width: 300px;
         display: flex;
         flex-direction: row; /* Side-by-side layout */        
     }
