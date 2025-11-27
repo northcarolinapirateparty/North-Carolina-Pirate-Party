@@ -289,7 +289,7 @@ h3 {
     }
 
     .click-button {
-        align-self: flex-start; /* Align button to top */
+        align-self: flex-end; /* Align button to bottom */
     }
 }
 
