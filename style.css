@@ -271,6 +271,7 @@ h3 {
         flex-direction: row; /* Side-by-side layout */
         align-items: center;
         text-align: center;
+        width: 100%; 
         padding: 30px;
     }
 
@@ -295,7 +296,7 @@ h3 {
 /* Media query for desktop (min-width: 1024px) */
 @media screen and (min-width: 1024px) {
     .card {
-        max-width: 300px;
+        max-width: 400px;
         display: flex;
         flex-direction: row; /* Side-by-side layout */        
     }
