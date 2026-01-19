@@ -83,13 +83,10 @@ a {
 
 #row-2{
     background-color: #ffffff;
-    width: 100%;
-    row-gap: 0px;
 }
 
 #row-1{
     background-color: #f8cc02;
-    row-gap: 0px;
 }
 
 #mainNav {
@@ -115,7 +112,6 @@ a {
 
 #row-3{
     background-color: #c00a32;
-    row-gap: 0px;
 }
 
 .container-fluid-1{
@@ -127,7 +123,6 @@ a {
 
 #row-4{
     background-color: #002768;
-    row-gap: 0px;
 }
 
 #run {
