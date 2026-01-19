@@ -91,19 +91,6 @@ a {
     row-gap: 0px;
 }
 
-footer{
-    background-color: #f8cc02;
-    row-gap: 0px;
-}
-
-body{
-    background-color: #002768;
-}
-
-#banner{
-    width: 100%;
-}
-
 #mainNav {
     background-color: #f8f9fa;
     border-bottom: 3px solid #002768;
