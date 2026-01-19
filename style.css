@@ -75,7 +75,6 @@ a {
     -webkit-text-fill-color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 4px;
-    font-weight: bold;
     paint-order: stroke fill;
     background-color: #f8f9fa;
 }
@@ -143,7 +142,6 @@ body{
     -webkit-text-fill-color: #f8cc02;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
-    font-weight: bold;
     paint-order: stroke fill;
     background-color: #000000;
 }
@@ -178,7 +176,6 @@ h3 {
     -webkit-text-fill-color: #ffffff;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
-    font-weight: bold;
     paint-order: stroke fill;
     background-color: #000000;
 }
@@ -187,7 +184,6 @@ h3 {
     -webkit-text-fill-color: #000000;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 0px;
-    font-weight: bold;
     paint-order: stroke fill;
     background-color: #f8cc02;
 }
