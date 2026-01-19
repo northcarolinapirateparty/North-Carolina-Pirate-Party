@@ -6,7 +6,6 @@
     color: #002768;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 2px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-size: large;
 }
@@ -18,7 +17,6 @@ p {
     color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 0.5);
     -webkit-text-stroke-width: 2px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-size: large;
 }
@@ -29,7 +27,6 @@ h2 {
     font-family:Impact, Arial, Helvetica, sans-serif;
     -webkit-text-stroke: rgba(255, 255, 255, 0);
     -webkit-text-stroke-width: 3px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-size: large;
 }
@@ -41,7 +38,6 @@ ul {
     color: #002768;
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 2px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-size: large;
 }
@@ -52,7 +48,6 @@ ul {
     color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 1);
     -webkit-text-stroke-width: 4px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-family:Impact, Arial, Helvetica, sans-serif;
     width: 100%;
@@ -65,7 +60,6 @@ ul {
     color: #002768;
     -webkit-text-stroke: rgba(255, 255, 255, 0);
     -webkit-text-stroke-width: 4px;
-    font-weight: bold;
     paint-order: stroke fill;
     font-family:Impact, Arial, Helvetica, sans-serif;
 }
