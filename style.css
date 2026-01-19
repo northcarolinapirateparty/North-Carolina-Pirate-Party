@@ -7,6 +7,7 @@
     -webkit-text-stroke: rgba(0, 0, 0, 0);
     -webkit-text-stroke-width: 2px;
     paint-order: stroke fill;
+    font-weight: bold;
     font-size: large;
 }
 
