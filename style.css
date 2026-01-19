@@ -36,8 +36,6 @@ ul {
     padding-left: 70px;
     font-family: Arial, Helvetica, sans-serif;
     color: #002768;
-    -webkit-text-stroke: rgba(0, 0, 0, 0);
-    -webkit-text-stroke-width: 2px;
     paint-order: stroke fill;
     font-size: large;
 }
