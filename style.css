@@ -87,16 +87,6 @@ a {
     background-color: #f8f9fa;
 }
 
-.fix-stroke{
-    paint-order: stroke fill;
-}
-
-#platform-width{
-    width: fit-content;
-    background-color: #f8cc02;
-
-}
-
 #row-2{
     background-color: #ffffff;
     width: 100%;
