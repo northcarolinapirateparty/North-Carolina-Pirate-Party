@@ -49,7 +49,6 @@ ul {
     -webkit-text-stroke-width: 4px;
     paint-order: stroke fill;
     font-family:Impact, Arial, Helvetica, sans-serif;
-    width: 100%;
 }
 
 #platform {
