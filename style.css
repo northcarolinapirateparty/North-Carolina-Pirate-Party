@@ -87,27 +87,6 @@ a {
     background-color: #f8cc02;
 }
 
-#mainNav {
-    background-color: #f8f9fa;
-    border-bottom: 3px solid #002768;
-}
-
-#mainNav .navbar-brand {
-    color: #002768;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;    
-    paint-order: stroke fill;
-}
-
-#mainNav .nav-link {
-    -webkit-text-fill-color: #c00a32;
-    -webkit-text-stroke: rgba(255, 255, 255, 0.5);
-    -webkit-text-stroke-width: 1px;
-    paint-order: stroke fill;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 #row-3{
     background-color: #c00a32;
 }
