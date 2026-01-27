@@ -140,3 +140,7 @@ h3 {
 #pirate-code-link {
     -webkit-text-fill-color: white;
 }
+
+.navbar-nav{
+    padding-right: 0;
+}
